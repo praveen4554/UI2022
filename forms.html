@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form>
+            <div>
+            <label for="firstName">First Name: </label>
+            <input type="text" placeholder="enter first Name" id="firstName" autofocus required minlength="3" maxlength="5"/>
+            </div>
+            <input type="email" placeholder="test@test.com"/>
+            <input type="password"/>
+            <input type="number"/>
+            <input type="checkbox" value="veh1" checked disabled> <label>vehicle1</label>
+            <input type="checkbox" value="veh2"> <label>vehicle2</label>
+            <input type="checkbox" value="veh3"> <label>vehicle3</label>
+            <input type="checkbox" value="veh4"> <label>vehicle4</label>
+            <input type="radio" name="gender" value="male" checked> <label>Male:</label>
+            <input type="radio" name="gender" value="female"> <label>Female:</label>
+            <select multiple>
+                <option value="cricket">Cricket</option>
+                <option value="cricket">football</option>
+                <option value="cricket">volleyball</option>
+                <option value="cricket">baseball</option>
+            </select>
+            <textarea rows="4" cols="50" required>
+                loreum ipsumakjdhaskfhjnalszkahdsfjklawhfckl
+            </textarea>
+            <audio controls autoplay>
+                <source src="test.mp3" type="audio/mpeg"/>
+            </audio>
+            <video width="230" height="250" controls muted autoplay>
+                <source src="movie.mp4" type="video/mp4"/>
+                Your browser doesn't support video'
+            </video>
+            <iframe width="200" height="200" src="https://www.youtube.com/embed?v=gVZo57uFz1U"></iframe>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </body>
+</html>

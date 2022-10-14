@@ -1,0 +1,13 @@
+1.git clone giturl
+2. create a branch
+  i. git checkout -b branchName
+  ii. git branch branch Name and git checkout branchName
+3. change the files 
+4. for status we need to git status
+5. Adding the files we need to do git add .(current folder files) or git add fileName
+6.git commit -m "message" (related to user story)
+7.git push branchName
+
+8. if you want to revert the file changes we need to do git checkout -- fileName
+
+9. git commit --a or git commit --amend
