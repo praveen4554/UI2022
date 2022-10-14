@@ -1,0 +1,5 @@
+1.git clone giturl
+2. create a branch
+  i. git checkout -b branchName
+  ii. git branch branch Name and git checkout branchName
+3.
